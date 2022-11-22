@@ -134,7 +134,9 @@ console.log(populateArray(arr1));
 //A student learning JavaScript was trying to make a function. His code should concatenate a passed string name with string "Edabit" and store it in a variable called result. He needs your help to fix this code.
 
 function nameString(name){
-  let str1 = 'edabit';
-  result = str1.concat
-
+  let str1 = 'Edabit';
+  result = name.concat(str1);
+  return result;
 }
+
+console.log(nameString('Henri'))
